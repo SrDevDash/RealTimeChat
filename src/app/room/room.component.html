@@ -1,0 +1,25 @@
+
+<div class="contenedor align-items-center">
+    <div class="row">
+    <div class="sidebar col-3">
+        <div class="row align-items-center mt-3">
+            <label class="text-center">{{roomName}}</label>
+        </div> 
+    </div>
+    <div class="col-9">
+        <h1 class="text-center">Chat</h1>
+        <div class="chat" data-bs-spy="scroll">
+            <ul *ngFor="let mensaje of mensajes" class="list-group" >
+                <li class="boxMensaje align-items-center">
+                    <label class="ms-3">{{mensaje.nick}}</label>
+                    <p class="text-end mr-3">{{mensaje.mensaje}}</p>
+                </li>
+            </ul>
+        </div>
+        <form [formGroup]="inputForm">
+            <input formControlName="text" class="text" type="text">
+            <button (click)="enviarMensaje()" class="btn">Enviar</button>
+        </form>
+    </div>   
+</div>
+</div>

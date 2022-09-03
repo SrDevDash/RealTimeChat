@@ -1,0 +1,37 @@
+.sidebar {
+    margin-left: auto;
+    width: 20%;
+    height: 100%;
+  }
+
+.chat{
+    height: 500px;
+    width: 99%;
+    background-color: rgba(222, 144, 144, 0.546);
+    border-radius: 25px;
+    overflow: scroll;
+}
+.text{
+    width: 75%;
+    height: 40px;
+}
+button{
+    margin-left: 10px;
+    background-color: rgb(139, 184, 255);
+    width: 20%;
+    height: 40px;
+}
+.a{
+  transform: translateY(50%);
+}
+
+.btn:hover{
+    background: aqua;
+    font-style: oblique;
+}
+.boxMensaje{
+    margin: 20px;
+    width: 90%;
+    background-color: rgba(116, 200, 253, 0.798);
+    border-radius: 20px;
+}

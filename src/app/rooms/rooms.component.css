@@ -1,0 +1,21 @@
+.salaItem{
+    width: 600px;
+    max-width: 600px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.701);
+    border: solid 2px;
+}
+
+button{
+    background-color: rgb(139, 184, 255);
+    width: 130px;
+    height: 50px;
+}
+.a{
+  transform: translateY(50%);
+}
+
+.btn:hover{
+    background: aqua;
+    font-style: oblique;
+}

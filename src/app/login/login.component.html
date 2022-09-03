@@ -1,0 +1,17 @@
+<div class="contenedor justify-content-center">
+  <h1 class="text-center mb-5">Macacos Online</h1>
+  <form [formGroup]="inputForm">
+    <div class="row align-items-center mb-3">
+      <label class="col-4">Nick</label>
+      <input  formControlName="nick" class="col-6 text-center" type="text"  />
+    </div>
+    <div class="row mt-5">
+      <div class="col-6">
+        <button [disabled]="inputForm.invalid" (click)="leer()" class="btn">Ingresar sala</button>
+      </div>
+      <div class="col-4">
+        <button [disabled]="inputForm.invalid" (click)="crearSala()" class="btn">Crear sala</button>
+      </div>
+    </div>
+  </form>
+</div>

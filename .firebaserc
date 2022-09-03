@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "realtimechat-aa615": {
+      "hosting": {
+        "RealTimeChat": [
+          "realtimechat-aa615"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "realtimechat-aa615"
+  }
+}

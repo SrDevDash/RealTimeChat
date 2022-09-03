@@ -1,0 +1,55 @@
+
+
+.contenedor{
+    display: grid;
+    align-items: center;
+    margin: 5% 10%;
+    max-width: 1000px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(221,45,253,1) 100%);
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+
+
+h1{
+    color: rgb(109, 202, 123);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+label{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+    font-style: inherit;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(255, 253, 121);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.btn:hover{
+    background: rgb(139, 184, 255);
+    font-style: oblique;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+input{
+    width: 450px;
+    height: 40px;
+   
+}
